@@ -1,0 +1,42 @@
+; PE Builder v3 plug-in INF file
+;
+; Use this file to customize some personal settings
+
+[Version]
+Signature= "$Windows NT$"
+
+[PEBuilder]
+Name="R-Drive Image"
+Enable=1
+Help="rdi.htm"
+
+[WinntDirectories]
+a="Programs\R-Drive Image",2
+
+[SourceDisksFiles]
+C:\Program Files (x86)\R-Drive Image\R-DriveImage.exe=a,,1
+C:\Program Files (x86)\R-Drive Image\r-driveimagecl.exe=a,,1
+C:\Program Files (x86)\R-Drive Image\eula.txt=a,,1
+C:\Program Files (x86)\R-Drive Image\DrvSnSht.sys=a,,1
+C:\Program Files (x86)\R-Drive Image\DrvSnSht64.sys=a,,1
+C:\Program Files (x86)\R-Drive Image\R-ImageDisk.sys=a,,1
+C:\Program Files (x86)\R-Drive Image\R-ImageDisk64.sys=a,,1
+C:\Program Files (x86)\R-Drive Image\rdrvmp.cat=a,,1
+C:\Program Files (x86)\R-Drive Image\rdrvmp.inf=a,,1
+C:\Program Files (x86)\R-Drive Image\RdrVmpUninstall32.exe=a,,1
+C:\Program Files (x86)\R-Drive Image\RdrVmpUninstall64.exe=a,,1
+C:\Program Files (x86)\R-Drive Image\rhelper.exe=a,,1
+C:\Program Files (x86)\R-Drive Image\amd64\RdrVmp.sys=a,,1
+C:\Program Files (x86)\R-Drive Image\i386\RdrVmp.sys=a,,1
+C:\Program Files (x86)\R-Drive Image\rvss64.exe=a,,1
+C:\Program Files (x86)\R-Drive Image\cdrecord.exe=a,,1
+C:\Program Files (x86)\R-Drive Image\rlincore.iso=a,,1
+C:\Program Files (x86)\R-Drive Image\lrdiboot.bin=a,,1
+C:\Program Files (x86)\R-Drive Image\lrdigui.bin=a,,1
+C:\Program Files (x86)\R-Drive Image\rdrive.bin=a,,1
+C:\Program Files (x86)\R-Drive Image\rdicpe.bin=a,rdiwpe.bin,1
+
+[Append]
+nu2menu.xml, rdi_nu2menu.xml
+
+

@@ -1,0 +1,9 @@
+<!-- Nu2Menu entry for R-Drive Image -->
+<NU2MENU>
+	<MENU ID="Programs">	   		
+		<MITEM TYPE="POPUP" DISABLED="@Not(@FileExists(@GetProgramDrive()\Programs\R-Drive Image\*.*))" MENUID="RDI">R-Drive Image</MITEM>
+	</MENU>
+	<MENU ID="RDI">	   		
+		<MITEM TYPE="ITEM" CMD="RUN" FUNC="@GetProgramDrive()\Programs\R-Drive Image\R-DriveImage.exe">R-Drive Image</MITEM>
+	</MENU>
+</NU2MENU>

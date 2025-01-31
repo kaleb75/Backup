@@ -1,0 +1,32 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\R-TT]
+@=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\R-TT\R-DriveImage]
+"InstalledVer"="6.0"
+"LanguageCode"="en"
+"ProductName"="R-Drive Image"
+"InstalledX64"=dword:00000000
+"lang_ids"="en,ru"
+"selected_lang_id"="ru"
+"StartMenuFolder"="R-Drive Image"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\R-TT\R-DriveImage\GUI]
+"Language"=dword:00000419
+
+[HKEY_CURRENT_USER\Software\R-TT]
+"Language"=dword:00000409
+
+[HKEY_CURRENT_USER\Software\R-TT\R-DriveImage]
+"L2"=dword:9ad3a857
+"lang_ids"="en,ru"
+"selected_lang_id"="ru_RU"
+"InstallerLanguage"="1049"
+"ProductName"="R-Drive Image Technician"
+"ProductName64"="R-Drive Image Technician"
+"uname"="punsh"
+"ucompany"="Cwer.ws"
+
+[HKEY_CURRENT_USER\Software\R-TT\R-DriveImage\GUI]
+"Language"=dword:00000419
